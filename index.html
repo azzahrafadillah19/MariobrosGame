@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Mario</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-light">
+  <div class="container game-wrap">
+    <h3 class="mb-3">🎮 Mini Game Jump (Bootstrap)</h3>
+
+    <button id="startBtn" class="btn btn-primary mb-3">Mulai & Fokus Canvas</button>
+    <canvas id="gameCanvas" width="800" height="240" tabindex="0"></canvas>
+
+    <div class="alert alert-info mt-3">
+      Gunakan tombol <strong>←</strong> <strong>→</strong> untuk gerak, 
+      <strong>Space</strong> untuk lompat
+    </div>
+
+    <div id="status" class="alert alert-success">Mainkan game!</div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
